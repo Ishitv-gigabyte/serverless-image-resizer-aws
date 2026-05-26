@@ -82,7 +82,6 @@ and paste the function URLs above (make sure to use https:// as protocol)
 
 Visit the web application at `https://webapp.s3-website.localhost.localstack.cloud:4566/` and paste the function URLs from the deployment output into the form fields. You can then upload an image and see it get automatically resized.
 
-https://user-images.githubusercontent.com/3996682/229314248-86122e9e-0150-4292-b889-401e6fb8f398.mp4
 
 You can run full end-to-end integration tests using the following command:
 
