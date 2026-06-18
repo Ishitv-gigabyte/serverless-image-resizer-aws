@@ -11,6 +11,8 @@
 
 ## Introduction
 
+> **Note on Performance:** For a detailed breakdown of the architectural performance metrics—including the **76% storage footprint reduction**, the **>99% faster developer iteration cycles**, and the **6.35s end-to-end reliability**—please see the [PERFORMANCE.md](./PERFORMANCE.md) file. You can also run the local benchmark via `./benchmark.sh`.
+
 This sample demonstrates how to build a serverless image resizing application using AWS Lambda, S3, and related services. The application features a simple web frontend that allows users to upload images, which are then automatically resized using Lambda functions triggered by S3 events. To test this application sample, we will demonstrate how you use LocalStack to deploy the infrastructure on your developer machine and test the complete workflow locally. We will also show how to use Lambda hot reloading for rapid development cycles and comprehensive integration testing to ensure the application works end-to-end.
 
 ## Architecture
